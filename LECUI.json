@@ -1,0 +1,22 @@
+{
+  "Author": "Husk & Bone",
+  "Name": "LE-C UI",
+  "InternalName": "LECUI",
+  "AssemblyVersion": "0.2.2.0",
+  "Description": "LE-C UI (Limsa E-Couple UI) draws the game's HUD again in a look of your choosing: usual, cute (pastels, hearts and sparkles, round corners; six colour sets) or edgy (black, sharp corners, slashes, capitals; six colour sets), each with your own colours, corners, border and little drawings.\n\nEach piece of the HUD has its own switch: the chat box, the party list, the duty list (quests, the duty, FATEs, the duty finder), the job gauge as the game has it (every job's gauge windows, the second one its own piece too), your HP and MP, your target and its target, your focus target, your cast bar, your statuses, the enemy list, the limit gauge and the experience bar. Switched on, LE-C UI draws that piece where the game's own is in your HUD layout and keeps the game's own off the screen; switched off, the game's own is back exactly where it was. Nothing of the game's settings is ever changed: your HUD layouts, configuration, chat settings and keybinds stay exactly as they are, the game's own pieces come back by themselves while the HUD layout editor is open, when you log out and when LE-C UI is disabled, and each update keeps a copy of your LE-C UI settings.\n\nEvery piece is a box over the game that's moved and sized the same way (/lecui place: drag it, or its sides; it snaps to the others and the screen's edges), with how solid its background is, how strongly it's drawn, the shadow under its writing and its size each its own setting. A piece shows when the game would show its own (hidden in cutscenes, by your HUD layout, and so on).\n\nThe party list has the game's job icons (or its framed ones, or the roles), the party's numbers, the leader's crown, the signs over heads, ready check answers, who has the enemy's attention, the icon of what each member is casting and a mark for what Esuna takes off; it targets on click, opens the game's own menu on right-click and is a mouseover target for your macros. The chat box has its own tabs, your chat colours, clickable links (map flags, names, other plugins' links), your last lines on Up and Down, and opens when you press Enter, as the game's does. The duty list opens a quest in the journal on click.\n\n/lecui opens the settings; /lecui place moves and sizes every piece; /lecui on|off <piece|all>; /lecui usual|cute|edgy.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "ui",
+    "hud",
+    "theme",
+    "chat",
+    "party list"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "The game's HUD drawn again in your look: the chat box, party list, duty list, job gauges, target and the rest, usual, cute or edgy.",
+  "AcceptsFeedback": true
+}
