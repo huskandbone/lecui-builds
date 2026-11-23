@@ -49,6 +49,26 @@ bar, so you can watch the HUD while you change it.
 
 *These pictures are made-up previews of LE-C UI's own drawing, not screenshots from the game.*
 
+## Above heads (off until you switch it on)
+
+One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`):
+- **Names over heads**: the game's own names, restyled. Your party's names in their role's colour (yours too, if you
+  like), shortened to first names, initials or their job if you like, and everyone else's in a colour of your own.
+  Which names show at all is still up to the game's own Nameplates settings.
+- **Bars under the names**, in your look: over your party (HP and barrier; their MP, their name and numbers if you
+  like), over the enemies fighting you in a dungeon (or every enemy near) with their HP, what they're casting (the ones
+  you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target. They hide in
+  cutscenes, group pose, with the UI hidden, and under the game's menus.
+- **Role colours** of your own for tanks, healers and damage dealers (start from the game's, Pastel, Neon or Jewels),
+  used by the names, the bars and the party list.
+
+Switch it off and the game's own names are back at once. If the game's own HP bars on names are switched on too
+(Character Configuration, UI Settings, Nameplates), you'll see both: switch the game's off there.
+
+![Names and bars over heads, three ways](images/above_heads.png)
+
+*A made-up preview of LE-C UI's own drawing, not a screenshot from the game.*
+
 ## Tells window (on from the start)
 
 Your tells get a window of their own: a conversation for each person, with a line to answer on. It pops up when a tell
@@ -75,11 +95,13 @@ you delete it there.
   that sets a game setting, a HUD layout or a game window's own position, size or visibility, and it uses no hooks and
   no signature scans.
 - **Nothing it does is saved into the game.** The game's own pieces are only drawn off the screen while LE-C UI's are
-  on; their positions in your HUD layout are never touched.
+  on; their positions in your HUD layout are never touched. With Above heads on, the names over heads are restyled as
+  the game writes each one (through Dalamud), and nothing of that is saved: switched off, they're the game's own.
 - **The game's own pieces come back** the moment you switch a piece off, whenever the HUD layout editor is open (so
   the layout you save there is your own), when you log out, and when LE-C UI is disabled or uninstalled.
-- **Your HUD changes only when you say so**: LE-C UI starts with every piece of the HUD off. Two things are on from
-  the start, with their switches on the Start page: the tells window, and saving your tells on your computer.
+- **Your HUD changes only when you say so**: LE-C UI starts with every piece of the HUD off, and Above heads too. Two
+  things are on from the start, with their switches on the Start page: the tells window, and saving your tells on your
+  computer.
 - **Your LE-C UI settings survive updates**: each new version keeps a copy of them from before it.
 
 ## Going back
@@ -97,7 +119,8 @@ you delete it there.
 | `/lecui place` | Show, move and size every piece that's on (again to lock them) |
 | `/lecui history` | Saved chat: your saved tells, and any other channels you save |
 | `/lecui tells` | The tells window |
-| `/lecui on <piece>` / `/lecui off <piece>` | Switch a piece on or off: chat, party, duty, gauge, gauge2, player, target, focus, cast, statuses, enemies, limit, exp, or all |
+| `/lecui heads` | The names and bars over heads |
+| `/lecui on <piece>` / `/lecui off <piece>` | Switch a piece on or off: chat, party, duty, gauge, gauge2, player, target, focus, cast, statuses, enemies, limit, exp, heads (the names and bars over heads), or all |
 | `/lecui usual`, `/lecui cute`, `/lecui edgy` | Switch the look |
 
 ## Something wrong?
