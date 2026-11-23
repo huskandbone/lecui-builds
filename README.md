@@ -34,7 +34,7 @@ Off, the game's own is back exactly where it was.
 | You, your target, your focus target | HP and barrier, MP (with your MP's number over its bar), casts, statuses, your target's target. Right-click your target or focus target for the game's own menu. |
 | Cast bar, statuses, enemy list, limit gauge, experience bar | All in the same look. |
 
-Every piece is a box you can move and size, with its own background, size and shadow. **Show and move every piece**
+Every piece is a box you can move and size, with its own background, size, shadow and border (borders can be switched off for one piece, or for all of them on the Look page). When the game's own right-click menus, yes/no questions, an adventurer plate or an examine window open over a piece, it fades out of their way and lets your mouse through. **Show and move every piece**
 (the arrows on the settings window's title bar, or `/lecui place`) shows them all, with made-up contents where there's
 nothing to show yet; hold Ctrl as you drag one to move them all together. The settings window minimizes to its title
 bar, so you can watch the HUD while you change it.
