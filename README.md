@@ -55,17 +55,22 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
 - **Names over heads**: the game's own names, restyled. Your party's names in their role's colour (yours too, if you
   like), shortened to first names, initials or their job if you like, and everyone else's in a colour of your own.
   Which names show at all is still up to the game's own Nameplates settings.
+- **Or LE-C UI's own names** in their place (a switch): in your look, over every player around you (or just your
+  party): their name and their title, over or under it as the game places it. Custom titles from Honorific show in
+  their own colours, if you have it. They work even with the game's own names switched off, and switched off, the
+  game's names are back.
 - **Bars under the names**, in your look: over your party (HP and barrier; their MP, their name and numbers if you
   like), over the enemies fighting you in a dungeon (or every enemy near) with their HP, what they're casting (the ones
-  you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target. They hide in
-  cutscenes, group pose, with the UI hidden, and under the game's menus.
+  you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target. They hold still over
+  people standing around, and follow them when they mount up or sit down. They hide in cutscenes, group pose, with the
+  UI hidden, and under the game's menus.
 - **Role colours** of your own for tanks, healers and damage dealers (start from the game's, Pastel, Neon or Jewels),
   used by the names, the bars and the party list.
 
 Switch it off and the game's own names are back at once. If the game's own HP bars on names are switched on too
 (Character Configuration, UI Settings, Nameplates), you'll see both: switch the game's off there.
 
-![Names and bars over heads, three ways](images/above_heads.png)
+![Names and bars over heads, three ways (the last with LE-C UI's own names and titles)](images/above_heads.png)
 
 *A made-up preview of LE-C UI's own drawing, not a screenshot from the game.*
 
@@ -99,6 +104,8 @@ you delete it there.
   the game writes each one (through Dalamud), and nothing of that is saved: switched off, they're the game's own.
 - **The game's own pieces come back** the moment you switch a piece off, whenever the HUD layout editor is open (so
   the layout you save there is your own), when you log out, and when LE-C UI is disabled or uninstalled.
+- **One other plugin is only asked one thing**: with LE-C UI's own names and their titles on, Honorific (if you have
+  it) is asked for people's custom titles. Nothing is ever sent to it or changed in it.
 - **Your HUD changes only when you say so**: LE-C UI starts with every piece of the HUD off, and Above heads too. Two
   things are on from the start, with their switches on the Start page: the tells window, and saving your tells on your
   computer.
