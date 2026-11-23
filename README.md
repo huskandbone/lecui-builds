@@ -28,13 +28,16 @@ Off, the game's own is back exactly where it was.
 | Piece | What LE-C UI's does |
 |---|---|
 | Chat box | Tabs of your own, your chat colours, clickable links (map flags, names), the line you type in with its channel; Enter opens it, as the game's does. Commands, emotes, macros and tells all go through the game's own chat. |
-| Party list | The game's order, HP and barriers, MP, casts, statuses. Icons: job icons (or the game's framed ones, or roles), party numbers, the leader's crown, signs over heads, ready check answers, who has the enemy's attention, cast icons, a mark for what Esuna removes. Click to target, right-click for the game's menu, hover for `<mo>` macros. |
+| Party list | The game's order, HP and barriers, MP, casts, statuses. Icons: job icons (or the game's framed ones, or roles), your chocobo's icon, party numbers, the leader's crown, signs over heads, ready check answers, who has the enemy's attention, cast icons, a mark for what Esuna removes. Click to target, right-click for the game's menu, hover for `<mo>` macros. |
 | Duty list | The duty and its time and objectives, FATEs, the duty finder, the quests you follow. Click a quest to open it in the journal. |
 | Job gauges | As the game has them for every job: the same windows (the second one its own piece), bars with their numbers, timers, pips and marks in each job's own shapes and colours. |
 | You, your target, your focus target | HP and barrier, MP, casts, statuses, your target's target. |
 | Cast bar, statuses, enemy list, limit gauge, experience bar | All in the same look. |
 
-Every piece is a box you can move and size (`/lecui place`), with its own background, size and shadow.
+Every piece is a box you can move and size, with its own background, size and shadow. **Show and move every piece**
+(the arrows on the settings window's title bar, or `/lecui place`) shows them all, with made-up contents where there's
+nothing to show yet; hold Ctrl as you drag one to move them all together. The settings window minimizes to its title
+bar, so you can watch the HUD while you change it.
 
 | | |
 |---|---|
@@ -69,7 +72,7 @@ Every piece is a box you can move and size (`/lecui place`), with its own backgr
 | Command | What it does |
 |---|---|
 | `/lecui` | LE-C UI's settings |
-| `/lecui place` | Move and size every piece that's on (again to lock them) |
+| `/lecui place` | Show, move and size every piece that's on (again to lock them) |
 | `/lecui on <piece>` / `/lecui off <piece>` | Switch a piece on or off: chat, party, duty, gauge, gauge2, player, target, focus, cast, statuses, enemies, limit, exp, or all |
 | `/lecui usual`, `/lecui cute`, `/lecui edgy` | Switch the look |
 
