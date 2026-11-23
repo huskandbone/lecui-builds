@@ -27,7 +27,7 @@ Off, the game's own is back exactly where it was.
 
 | Piece | What LE-C UI's does |
 |---|---|
-| Chat box | Tabs of your own, your chat colours, names in colours of your choosing, clickable links (map flags, names), the line you type in with its channel; Enter opens it, as the game's does. Drag its tab row to move it and pull its edges to size it, any time. Commands, emotes, macros and tells all go through the game's own chat. |
+| Chat box | Tabs of your own; your chat colours from the game, or a colour of your own for any channel (start from the Pastel or Neon set); its own colours for the background, edge, tabs, times and the line you type in; names in colours of your choosing; clickable links (map flags, names); the line you type in with its channel, and Enter opens it, as the game's does. Drag its tab row to move it and pull its sides or corner to size it, any time. Commands, emotes, macros and tells all go through the game's own chat. |
 | Party list | The game's order, HP and barriers, MP, casts, statuses. Icons: job icons (or the game's framed ones, or roles), your chocobo's icon, party numbers, the leader's crown, signs over heads, ready check answers, who has the enemy's attention, cast icons, a mark for what Esuna removes. Who's raising whom: a fallen member's row lights up with the raiser's name (orange if two are raising the same person). Click to target, right-click for the game's menu, hover for `<mo>` macros. |
 | Duty list | The duty and its time and objectives, FATEs, the duty finder, the quests you follow. Click a quest to open it in the journal. |
 | Job gauges | As the game has them for every job: the same windows (the second one its own piece), bars with their numbers, timers, pips and marks in each job's own shapes and colours. |
@@ -42,6 +42,8 @@ bar, so you can watch the HUD while you change it.
 | | |
 |---|---|
 | ![Party list icons](images/party_icons.png) | ![Every job's gauges](images/gauges_cute.png) |
+
+![The chat box's colours: the Pastel and Neon sets, and the page you pick them on](images/chat_colours.png)
 
 ![The edgy look](images/hud_edgy.png)
 
