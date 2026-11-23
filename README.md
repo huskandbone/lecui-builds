@@ -49,17 +49,24 @@ bar, so you can watch the HUD while you change it.
 
 *These pictures are made-up previews of LE-C UI's own drawing, not screenshots from the game.*
 
-## Saved chat (only if you want it)
+## Tells window (on from the start)
 
-Off until you switch it on (LE-C UI's settings, Chat box page, **Saved chat**). Then your tells, and any other channels
-you pick, are kept in a plain text file a day on your computer (`pluginConfigs\LECUI\ChatLogs`), never sent anywhere,
-for as long as you choose. `/lecui history` reads them back, with a search.
+Your tells get a window of their own: a conversation for each person, with a line to answer on. It pops up when a tell
+comes in, without taking your keyboard, and waits until after a fight or a cutscene. `/lecui tells` opens it.
+**History** on a conversation opens every saved tell with that person, day by day, with a search. Switch the window off
+on LE-C UI's Start page or its Chat box page (**Tells window**).
 
-## Tells window (only if you want it)
+![The tells window, and History: every saved tell with one person](images/tell_history.png)
 
-Off until you switch it on (LE-C UI's settings, Chat box page, **Tells window**). Then your tells get a window of their
-own: a conversation for each person, with a line to answer on. It pops up when a tell comes in, without taking your
-keyboard, and waits until after a fight or a cutscene. `/lecui tells` opens it.
+*A made-up preview of LE-C UI's own drawing, not a screenshot from the game.*
+
+## Saved chat (on from the start, kept for good)
+
+Your tells are kept in a plain text file a day on your computer (`pluginConfigs\LECUI\ChatLogs`), never sent anywhere,
+for good unless you pick a shorter time. You can save other channels too (party, FC, linkshells...). `/lecui history`
+reads them back, with a search. Switch it off, or pick the channels and how long to keep them, on LE-C UI's Chat box
+page (**Saved chat**); the Start page has its switch too. Switched off, nothing more is written; what's saved stays until
+you delete it there.
 
 ## Your settings stay yours
 
@@ -71,7 +78,8 @@ keyboard, and waits until after a fight or a cutscene. `/lecui tells` opens it.
   on; their positions in your HUD layout are never touched.
 - **The game's own pieces come back** the moment you switch a piece off, whenever the HUD layout editor is open (so
   the layout you save there is your own), when you log out, and when LE-C UI is disabled or uninstalled.
-- **Nothing changes until you say so**: LE-C UI starts with every piece off.
+- **Your HUD changes only when you say so**: LE-C UI starts with every piece of the HUD off. Two things are on from
+  the start, with their switches on the Start page: the tells window, and saving your tells on your computer.
 - **Your LE-C UI settings survive updates**: each new version keeps a copy of them from before it.
 
 ## Going back
@@ -87,8 +95,8 @@ keyboard, and waits until after a fight or a cutscene. `/lecui tells` opens it.
 |---|---|
 | `/lecui` | LE-C UI's settings |
 | `/lecui place` | Show, move and size every piece that's on (again to lock them) |
-| `/lecui history` | Saved chat, if you've switched it on |
-| `/lecui tells` | The tells window, if you've switched it on |
+| `/lecui history` | Saved chat: your saved tells, and any other channels you save |
+| `/lecui tells` | The tells window |
 | `/lecui on <piece>` / `/lecui off <piece>` | Switch a piece on or off: chat, party, duty, gauge, gauge2, player, target, focus, cast, statuses, enemies, limit, exp, or all |
 | `/lecui usual`, `/lecui cute`, `/lecui edgy` | Switch the look |
 
