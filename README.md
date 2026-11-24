@@ -72,7 +72,9 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
   give your target's frame a look of its own, or switch the bars off for names only; **For busy fights** makes them
   taller and glossy on a dark plate, so they stand out in a raid.
 - **Sharp writing** (new, a switch): names and numbers over heads drawn from big fonts, so they stay crisp however big
-  you set them, and LE-C UI's names in a font of your choice (the game's own AXIS, Jupiter, Trump Gothic or Miedinger).
+  you set them, and LE-C UI's names in a font of your choice: the game's own (AXIS, Jupiter, Trump Gothic, Miedinger),
+  Dalamud's (Clean, Light, Mono), or any font on your computer through Dalamud's font chooser, made at every size the
+  names are drawn at, with a sharpness slider.
   It's only used once you're logged in, so you can always switch it off at the title screen.
 - **The edge round the names**: thinner, none, or wider, and black or a colour of your own instead of a shade of each
   name's colour; or an edge of its own for each name colour (your friends', your free company's, your alliance's,
