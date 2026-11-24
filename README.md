@@ -28,7 +28,7 @@ Off, the game's own is back exactly where it was.
 | Piece | What LE-C UI's does |
 |---|---|
 | Chat box | Tabs of your own; your chat colours from the game, or a colour of your own for any channel (start from the Pastel or Neon set); its own colours for the background, edge, tabs, times and the line you type in; names in colours of your choosing (as it comes, each in its channel's colour, so never black); clickable links (map flags, names), and right-click a name for the game's own menu for them (when they're near you or in your party; otherwise a small menu to send a tell, see your saved tells with them, or copy their name); the line you type in with its channel, and Enter opens it, as the game's does; an envelope by its cog opens your tells window, with how many are unread. Drag its tab row to move it any time; pull its sides or corner to size it while you're moving and sizing the pieces (`/lecui place`), so it never changes size by accident. Each channel keeps its own lines, so a fight's battle lines or a busy town's shouts never push your party's, free company's or tells' out. Commands, emotes, macros and tells all go through the game's own chat. |
-| Party list | The game's order, HP and barriers with MP beside them and both numbers in their bars (as the game's own list has them), casts, statuses. Icons: job icons (or the game's framed ones, or roles), your chocobo's icon, party numbers, the leader's crown, signs over heads, ready check answers (bold green, red and grey marks, clear at a glance), who has the enemy's attention, cast icons, a mark for what Esuna removes. Who's raising whom: a fallen member's row lights up with the raiser's name (orange if two are raising the same person), and once they've been raised (an instant raise too) their row is boxed in green, "Insta raised by <name>" or "Raised by <name>", until they're back up. Statuses with no timer of their own (Kardia, Kardion) show none. Click to target, right-click for the game's menu, hover for `<mo>` macros. Cross-world parties too: anyone near you as usual, everyone else with their job, level and the world they're on, faded only while they're away from you. Style it your way: the name over the bar or inside it, columns, each job's colour (or your role colours, one colour, or full to low), bars that turn redder as people are hurt, flat, soft, glossy or striped, square, rounded or slanted, a dark plate under them, and the HP written how and where you like, or **Like the game's own list** (thin bars, the numbers under them) in one click. |
+| Party list | The game's order, HP and barriers with MP beside them and both numbers in their bars (as the game's own list has them), casts, statuses. Icons: job icons (or the game's framed ones, or roles), your chocobo's icon, party numbers, the leader's crown, signs over heads, ready check answers (bold green, red and grey marks, clear at a glance), who has the enemy's attention, cast icons, a mark for what Esuna removes. Who's raising whom: a fallen member's row lights up with the raiser's name (orange if two are raising the same person), and once they've been raised (an instant raise too) their row is boxed in green, "Insta raised by <name>" or "Raised by <name>", until they're back up. Statuses with no timer of their own (Kardia, Kardion) show none. Click to target, right-click for the game's menu, hover for `<mo>` macros. Plugins that move the mouse onto party members for mouseover actions can ask LE-C UI where its rows are, so they work with its list. Cross-world parties too: anyone near you as usual, everyone else with their job, level and the world they're on, faded only while they're away from you. Style it your way: the name over the bar or inside it, columns, each job's colour (or your role colours, one colour, or full to low), bars that turn redder as people are hurt, flat, soft, glossy or striped, square, rounded or slanted, a dark plate under them, and the HP written how and where you like, or **Like the game's own list** (thin bars, the numbers under them) in one click. |
 | Duty list | The duty and its time and objectives, FATEs, the duty finder, the quests you follow. Click a quest to open it in the journal. |
 | Job gauges | As the game has them for every job: the same windows (the second one its own piece), bars with their numbers, timers, pips and marks in each job's own shapes and colours. |
 | You, your target, your focus target | HP and barrier, MP (with your MP's number over its bar), casts, statuses, your target's target. Right-click your target or focus target for the game's own menu. |
@@ -68,7 +68,7 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
   you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, enemies
   only or people only), with their names written over the bars in place of the game's. They hold still over people
   standing around, and follow them when they mount up or sit down.
-  They hide in cutscenes, group pose, with the UI hidden, and under the game's menus. Style them like the party list,
+  They hide in cutscenes, group pose, with the UI hidden, and they go under the game's own HUD and windows (hotbars, chat, map, menus), as the game's own names do. Style them like the party list,
   give your target's frame a look of its own, or switch the bars off for names only; **For busy fights** makes them
   taller and glossy on a dark plate, so they stand out in a raid.
 - **Sharp writing** (new, a switch): names and numbers over heads drawn from big fonts, so they stay crisp however big
@@ -129,6 +129,9 @@ you delete it there.
   the layout you save there is your own), when you log out, and when LE-C UI is disabled or uninstalled.
 - **One other plugin is only asked one thing**: with LE-C UI's own names and their titles on, Honorific (if you have
   it) is asked for people's custom titles. Nothing is ever sent to it or changed in it.
+- **Other plugins can ask LE-C UI two things, and are only answered**: where its party list's rows are (for mouseover
+  tools) and which look is on (so something drawn over the game can match it). Nothing another plugin asks changes
+  anything in LE-C UI or in the game.
 - **Your HUD changes only when you say so**: LE-C UI starts with every piece of the HUD off, and Above heads too. Two
   things are on from the start, with their switches on the Start page: the tells window (its conversations kept on your
   computer for next time), and saving your tells on your computer.
@@ -152,6 +155,21 @@ you delete it there.
 | `/lecui heads` | The names and bars over heads |
 | `/lecui on <piece>` / `/lecui off <piece>` | Switch a piece on or off: chat, party, duty, gauge, gauge2, player, target, focus, cast, statuses, enemies, limit, exp, heads (the names and bars over heads), or all |
 | `/lecui usual`, `/lecui cute`, `/lecui edgy` | Switch the look |
+
+## For plugin makers
+
+LE-C UI answers two Dalamud plugin calls (IPC), each a function giving back a `double[]`
+(`GetIpcSubscriber<double[]>(name).InvokeFunc()`). They're only answered: nothing you call changes anything.
+
+- `LECUI.PartyList.Rows`: nine numbers for each member drawn on LE-C UI's party list, in the order drawn: their entity
+  ID, the row's left, top, width and height, then their name's left, top, width and height, in the game window's own
+  pixels (the screen's, less ImGui's main viewport position). Empty while the list isn't drawn. Hovering a row makes
+  that member the game's mouseover target.
+- `LECUI.Look`: forty numbers (layout 1): [0] the layout's version; [1] the look (0 usual, 1 cute, 2 edgy); [2-21] the
+  accent, second, writing, quiet writing and low-HP colours it draws over the game with (red, green, blue, alpha, 0 to
+  1); [22] little drawings on; [23] hearts (cute) or slashes (edgy) among them; [24] sparkles (cute) or cut corners
+  (edgy); [25] their size; [26] how round the corners are; [27] edgy headings in capitals; [28-39] the tank, healer and
+  damage colours. Later layouts only add numbers at the end.
 
 ## Something wrong?
 
