@@ -1,0 +1,66 @@
+name: Something's wrong
+description: LE-C UI shows something different from the game's own, or doesn't do what it should.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for telling us! If it's the party list, the duty list or a job gauge, open that piece's settings page, copy **What the game holds for it**, and paste it below.
+
+  - type: input
+    id: version
+    attributes:
+      label: LE-C UI version
+      description: In /xlplugins > Installed plugins, next to LE-C UI.
+      placeholder: "0.2.13.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: piece
+    attributes:
+      label: Which piece?
+      options:
+        - Chat box
+        - Party list
+        - Duty list
+        - Job gauge
+        - Your own frame
+        - Target or focus frame
+        - Cast bar or statuses
+        - Enemy list
+        - Limit break or experience bar
+        - Names and bars over heads
+        - Tells window
+        - Saved chat
+        - Settings, or moving the pieces
+        - Not sure
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you saw, and what you expected instead. Your job helps too.
+    validations:
+      required: true
+
+  - type: textarea
+    id: holds
+    attributes:
+      label: What the game holds for it
+      description: From the piece's settings page, for the party list, the duty list or a job gauge.
+      render: text
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Lines from /xllog
+      description: |
+        Type /xllog in game, type LECUI in its filter, and copy the lines from around when it went wrong.
+        If your Windows user name shows up in a path, cut it out.
+      render: text
+
+  - type: textarea
+    id: pictures
+    attributes:
+      label: Screenshots
+      description: Drag them in here. LE-C UI's piece next to the game's own helps a lot.

@@ -1,0 +1,9 @@
+name: An idea or a question
+description: Something LE-C UI could do, or something you'd like to know.
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Your idea or question
+    validations:
+      required: true
