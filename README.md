@@ -56,8 +56,8 @@ bar, so you can watch the HUD while you change it.
 One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`):
 - **Names over heads**: the game's own names, restyled. Your party's names in their role's colour (yours too, if you
   like), shortened to first names, initials or their job if you like; your friends, your free company and your
-  alliance each in a colour of their own (as it comes; pick the colours, or switch any off); and everyone else's in a
-  colour of your own. Which names show at all is still up to the game's own Nameplates settings.
+  alliance each in a colour of their own (as it comes; pick the colours, or switch any off); your own name in a colour
+  of its own if you like; and everyone else's in a colour of your own. Which names show at all is still up to the game's own Nameplates settings.
 - **Or LE-C UI's own names** in their place (a switch): in your look, over every player around you (or just your
   party): their job's icon and their status icon (a mentor's crown, role-playing and the rest), their name, their free
   company's tag, and their title, over or under it as the game places it, in the colours above. Custom titles from
@@ -75,7 +75,8 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
   you set them, and LE-C UI's names in a font of your choice (the game's own AXIS, Jupiter, Trump Gothic or Miedinger).
   It's only used once you're logged in, so you can always switch it off at the title screen.
 - **The edge round the names**: thinner, none, or wider, and black or a colour of your own instead of a shade of each
-  name's colour.
+  name's colour; or an edge of its own for each name colour (your friends', your free company's, your alliance's,
+  everyone else's, your own, and each role's).
 - **Role colours** of your own for tanks, healers and damage dealers (start from the game's, Pastel, Neon or Jewels),
   used by the names, the bars and the party list.
 
@@ -92,7 +93,7 @@ the game's (as it comes; a switch). Only what's shown changes: your game's setti
 
 Your tells get a window of their own: a conversation for each person, with a line to answer on. It pops up when a tell
 comes in or when you send one (on that conversation), without taking your keyboard, and waits until after a fight or a
-cutscene. `/lecui tells` opens it. **History** on a conversation opens every saved tell with that person, day by day,
+cutscene. `/lecui tells` opens it. Type an emote there (/hug, /em ...) and it runs, as from the game's own chat line. **History** on a conversation opens every saved tell with that person, day by day,
 with a search. Switch the window off on LE-C UI's Start page or its Chat box page (**Tells window**).
 
 The conversations are kept for next time: log out, restart the game or update LE-C UI, and the people you're talking to
