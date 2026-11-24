@@ -68,7 +68,7 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
   you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, enemies
   only or people only), with their names written over the bars in place of the game's. They hold still over people
   standing around, and follow them when they mount up or sit down.
-  They hide in cutscenes, group pose, with the UI hidden, and they go under the game's own HUD and windows (hotbars, chat, map, menus), as the game's own names do. Style them like the party list,
+  They hide in cutscenes, group pose, with the UI hidden, and they go under the game's own HUD and windows (hotbars, chat, map, menus), as the game's own names do: only where the game actually draws something, never in its empty room. If a name ever looks cut where nothing is, `/lecui outline` (or "Outline what they go under", near the top of the Above heads page) outlines every piece of the game's UI it goes under, with its name. Style them like the party list,
   give your target's frame a look of its own, or switch the bars off for names only; **For busy fights** makes them
   taller and glossy on a dark plate, so they stand out in a raid.
 - **Sharp writing** (new, a switch): names and numbers over heads drawn from big fonts, so they stay crisp however big
@@ -153,6 +153,7 @@ you delete it there.
 | `/lecui history` | Saved chat: your saved tells, and any other channels you save |
 | `/lecui tells` | The tells window |
 | `/lecui heads` | The names and bars over heads |
+| `/lecui outline` | Outline what the names over heads go under (the game's UI, with each piece's name): again to stop |
 | `/lecui on <piece>` / `/lecui off <piece>` | Switch a piece on or off: chat, party, duty, gauge, gauge2, player, target, focus, cast, statuses, enemies, limit, exp, heads (the names and bars over heads), or all |
 | `/lecui usual`, `/lecui cute`, `/lecui edgy` | Switch the look |
 
