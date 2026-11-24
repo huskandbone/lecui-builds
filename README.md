@@ -28,7 +28,7 @@ Off, the game's own is back exactly where it was.
 | Piece | What LE-C UI's does |
 |---|---|
 | Chat box | Tabs of your own; your chat colours from the game, or a colour of your own for any channel (start from the Pastel or Neon set); its own colours for the background, edge, tabs, times and the line you type in; names in colours of your choosing (as it comes, each in its channel's colour, so never black); clickable links (map flags, names), and right-click a name for the game's own menu for them (when they're near you or in your party; otherwise a small menu to send a tell, see your saved tells with them, or copy their name); the line you type in with its channel, and Enter opens it, as the game's does; an envelope by its cog opens your tells window, with how many are unread. Drag its tab row to move it any time; pull its sides or corner to size it while you're moving and sizing the pieces (`/lecui place`), so it never changes size by accident. Commands, emotes, macros and tells all go through the game's own chat. |
-| Party list | The game's order, HP and barriers with MP beside them and both numbers in their bars (as the game's own list has them), casts, statuses. Icons: job icons (or the game's framed ones, or roles), your chocobo's icon, party numbers, the leader's crown, signs over heads, ready check answers, who has the enemy's attention, cast icons, a mark for what Esuna removes. Who's raising whom: a fallen member's row lights up with the raiser's name (orange if two are raising the same person). Click to target, right-click for the game's menu, hover for `<mo>` macros. Style it your way: the name over the bar or inside it, columns, each job's colour (or your role colours, one colour, or full to low), bars that turn redder as people are hurt, flat, soft, glossy or striped, square, rounded or slanted, a dark plate under them, and the HP written how and where you like, or **Like the game's own list** (thin bars, the numbers under them) in one click. |
+| Party list | The game's order, HP and barriers with MP beside them and both numbers in their bars (as the game's own list has them), casts, statuses. Icons: job icons (or the game's framed ones, or roles), your chocobo's icon, party numbers, the leader's crown, signs over heads, ready check answers, who has the enemy's attention, cast icons, a mark for what Esuna removes. Who's raising whom: a fallen member's row lights up with the raiser's name (orange if two are raising the same person). Click to target, right-click for the game's menu, hover for `<mo>` macros. Cross-world parties too: everyone in the party with their job and level, and the world they're on when it isn't yours. Style it your way: the name over the bar or inside it, columns, each job's colour (or your role colours, one colour, or full to low), bars that turn redder as people are hurt, flat, soft, glossy or striped, square, rounded or slanted, a dark plate under them, and the HP written how and where you like, or **Like the game's own list** (thin bars, the numbers under them) in one click. |
 | Duty list | The duty and its time and objectives, FATEs, the duty finder, the quests you follow. Click a quest to open it in the journal. |
 | Job gauges | As the game has them for every job: the same windows (the second one its own piece), bars with their numbers, timers, pips and marks in each job's own shapes and colours. |
 | You, your target, your focus target | HP and barrier, MP (with your MP's number over its bar), casts, statuses, your target's target. Right-click your target or focus target for the game's own menu. |
@@ -55,13 +55,16 @@ bar, so you can watch the HUD while you change it.
 
 One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`):
 - **Names over heads**: the game's own names, restyled. Your party's names in their role's colour (yours too, if you
-  like), shortened to first names, initials or their job if you like, and everyone else's in a colour of your own.
-  Which names show at all is still up to the game's own Nameplates settings.
+  like), shortened to first names, initials or their job if you like; your friends, your free company and your
+  alliance each in a colour of their own (as it comes; pick the colours, or switch any off); and everyone else's in a
+  colour of your own. Which names show at all is still up to the game's own Nameplates settings.
 - **Or LE-C UI's own names** in their place (a switch): in your look, over every player around you (or just your
-  party): their status icon, their name, their free company's tag, and their title, over or under it as the game
-  places it. Custom titles from Honorific show just as Honorific draws them, in their own colours with their moving
-  glow, if you have it. They work even with the game's own names switched off, and switched off, the game's names are
-  back.
+  party): their job's icon and their status icon (a mentor's crown, role-playing and the rest), their name, their free
+  company's tag, and their title, over or under it as the game places it, in the colours above. Custom titles from
+  Honorific show just as Honorific draws them, in their own colours with their moving glow, if you have it. Write the
+  names in the look's font or one of the game's own (its usual one, its serif, its tall one or its wide one), at any
+  size: the writing over heads stays sharp as it gets bigger. They work even with the game's own names switched off, and
+  switched off, the game's names are back.
 - **Bars under the names**, in your look: over your party (HP and barrier; their MP, their name and numbers if you
   like), over the enemies fighting you in a dungeon (or every enemy near) with their HP, what they're casting (the ones
   you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, enemies
@@ -77,7 +80,7 @@ Switch it off and the game's own names are back at once. If the game's own HP ba
 comes), or under every name if you like, and LE-C UI can write the names of the enemies it draws bars over in place of
 the game's. Only what's shown changes: your game's settings stay exactly as they are.
 
-![Names and bars over heads, five ways: as it comes; initials with names and numbers; LE-C UI's own names and titles; for busy fights; names only](images/above_heads.png)
+![Names and bars over heads, six ways: as it comes; initials with names and numbers; LE-C UI's own names, titles and job icons; for busy fights; names only; a friend, your free company, your alliance and someone else in colours of their own](images/above_heads.png)
 
 *A made-up preview of LE-C UI's own drawing, not a screenshot from the game.*
 
