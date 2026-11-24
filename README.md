@@ -61,10 +61,8 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
 - **Or LE-C UI's own names** in their place (a switch): in your look, over every player around you (or just your
   party): their job's icon and their status icon (a mentor's crown, role-playing and the rest), their name, their free
   company's tag, and their title, over or under it as the game places it, in the colours above. Custom titles from
-  Honorific show just as Honorific draws them, in their own colours with their moving glow, if you have it. Write the
-  names in the look's font or one of the game's own (its usual one, its serif, its tall one or its wide one), at any
-  size: the writing over heads stays sharp as it gets bigger. They work even with the game's own names switched off, and
-  switched off, the game's names are back.
+  Honorific show just as Honorific draws them, in their own colours with their moving glow, if you have it. They work
+  even with the game's own names switched off, and switched off, the game's names are back.
 - **Bars under the names**, in your look: over your party (HP and barrier; their MP, their name and numbers if you
   like), over the enemies fighting you in a dungeon (or every enemy near) with their HP, what they're casting (the ones
   you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, enemies
