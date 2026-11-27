@@ -75,7 +75,7 @@ they stay the game's, so clicking, dragging, cooldowns and tooltips work as alwa
 
 | Piece | In your look |
 |---|---|
-| Hotbars | Every keyboard bar, the cross hotbar, the pet bar and duty actions: the slot's frame, the cooldown sweep, procs and combos (a heart in cute, slashes in edgy, a diamond in usual), the keybind on a tag, the seconds left in big numbers when it's coming back, costs as small pills, charges as dots, each bar in a box of the look. Pick the font LE-C UI writes on them in, and make the marks on an action to use next brighter and easier to see if you like. |
+| Hotbars | Every keyboard bar, the cross hotbar, the pet bar and duty actions: the slot's frame, the cooldown sweep, procs and combos (a heart in cute, slashes in edgy, a diamond in usual), the keybind on a tag, the seconds left in big numbers when it's coming back, costs as small pills, charges as dots, each bar in a box of the look. Pick the font LE-C UI writes on them in, and make the marks on an action to use next brighter and easier to see if you like. Empty slots are filled with the look's dark, so the world doesn't show through them (a switch). |
 | Minimap and the bottom strip | The round map in your look's ring (the bar under it, with where you are, the coordinates, the weather and Eorzea time, can be switched off for the game's own), the main menu's buttons as your look's icons, the server info bar and gil as the design's pills. |
 | Inventory, scenario guide, notices | The bags as a pill (or their dots), the main scenario's card, the notices as a pill. |
 | Menus, tooltips and windows | Light, in your look's window colours, with its heart and sparkle (or the edgy cut corner and slashes): right-click menus, tooltips, questions, and the game's windows' frames, buttons, tabs, check boxes and fields. |
@@ -100,9 +100,9 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
   Honorific show just as Honorific draws them, in their own colours with their moving glow, if you have it. They work
   even with the game's own names switched off, and switched off, the game's names are back.
 - **Bars under the names**, in your look: over your party (HP and barrier; their MP, their name and numbers if you
-  like), over the enemies fighting you in a dungeon (or **every enemy near, all the time**, targeted or not, out to a range
-  of your own) with their HP, what they're casting (the ones
-  you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, enemies
+  like), over the mobs fighting you in a dungeon (or **every mob near, all the time**, targeted or not, the yellow ones that
+  leave you alone too, out to a range of your own) with their HP, what they're casting (the ones
+  you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, mobs
   only or people only; or no bar at all over another player you target, the game's own included), with their names
   written over the bars in place of the game's. They hold still over people
   standing around, and follow them when they mount up or sit down.
