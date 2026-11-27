@@ -24,6 +24,11 @@ Your UI is saved before anything changes, and your own settings go back every ti
 
 Dalamud keeps it up to date from then on. You need the game started through XIVLauncher, with Dalamud (API 15).
 
+**Updating to 0.3.114 from an older LE-C UI** starts LE-C UI's own settings fresh, once, so everything new comes on as it
+does for a new player (before, some of it stayed off until you reset the plugin's data). Your game's UI and your saved UIs
+aren't touched, you aren't asked to set up again, the pieces you had on stay on (each where the game's own is in your
+HUD layout), and your old LE-C UI settings are kept as a copy in `pluginConfigs\LECUI` (the chat tells you where).
+
 ## What it replaces
 
 Each piece has its own switch. On, LE-C UI draws it where the game's own was and keeps the game's own off the screen.
