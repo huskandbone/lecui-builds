@@ -1,7 +1,7 @@
 # LE-C UI
 
 **Limsa E-Couple UI**: a Dalamud plugin that redoes FINAL FANTASY XIV's whole UI in a look of your choosing (usual,
-cute or edgy): pieces of its own where it draws them, and the game's own pieces repainted in your look everywhere else.
+cute or edgy, each in colour sets of its own or your own colours): pieces of its own where it draws them, and the game's own pieces repainted in your look everywhere else.
 Your UI is saved before anything changes, and your own settings go back every time you log out. Made by Husk & Bone.
 
 ![LE-C UI's HUD in the cute look](images/hud_cute.png)
@@ -50,8 +50,10 @@ Off, the game's own is back exactly where it was.
 
 Every piece is a box you can move and size, with its own background, size, shadow and border (borders can be switched off for one piece, or for all of them on the Look page). When the game's own right-click menus, yes/no questions, an adventurer plate or an examine window open over a piece, it fades out of their way and lets your mouse through. **Show and move every piece**
 (the arrows on the settings window's title bar, or `/lecui place`) shows them all, with made-up contents where there's
-nothing to show yet; hold Ctrl as you drag one to move them all together. The settings window minimizes to its title
-bar, so you can watch the HUD while you change it.
+nothing to show yet; hold Ctrl as you drag one to move them all together. Switch on **A grid** there to place them
+on its lines (pick its squares' size; hold Shift to place one anywhere). The settings window minimizes to its title
+bar, so you can watch the HUD while you change it. On the Look page, the usual look comes in eight colour sets (Teal,
+Ocean, Rose, Amber, Violet, Emerald, Crimson, Slate) or colours of your own, with its corners and border as you like.
 
 | | |
 |---|---|
@@ -98,7 +100,8 @@ One switch, on LE-C UI's Start page or its **Above heads** page (`/lecui heads`)
   Honorific show just as Honorific draws them, in their own colours with their moving glow, if you have it. They work
   even with the game's own names switched off, and switched off, the game's names are back.
 - **Bars under the names**, in your look: over your party (HP and barrier; their MP, their name and numbers if you
-  like), over the enemies fighting you in a dungeon (or every enemy near) with their HP, what they're casting (the ones
+  like), over the enemies fighting you in a dungeon (or **every enemy near, all the time**, targeted or not, out to a range
+  of your own) with their HP, what they're casting (the ones
   you can interrupt pulse) and a mark on the ones you're holding, and a frame over your target (over anything, enemies
   only or people only; or no bar at all over another player you target, the game's own included), with their names
   written over the bars in place of the game's. They hold still over people
@@ -178,6 +181,10 @@ you delete it there.
   tools) and which look is on (so something drawn over the game can match it). Nothing another plugin asks changes
   anything in LE-C UI or in the game.
 - **Your LE-C UI settings survive updates**: each new version keeps a copy of them from before it.
+- **Save your LE-C UI setups** (Start page, **Your LE-C UI setups**): save LE-C UI's settings under a name and load
+  them again any time, or copy them as text to share with a friend (paste theirs the same way). Loading one first keeps
+  what you had as "Before the last load". A setup holds only LE-C UI's own settings, never your saved UIs, and is kept
+  in `pluginConfigs\LECUI\Setups`.
 
 ## Going back
 
