@@ -54,6 +54,11 @@ nothing to show yet; hold Ctrl as you drag one to move them all together. Switch
 on its lines (pick its squares' size; hold Shift to place one anywhere). The settings window minimizes to its title
 bar, so you can watch the HUD while you change it. On the Look page, the usual look comes in eight colour sets (Teal,
 Ocean, Rose, Amber, Violet, Emerald, Crimson, Slate) or colours of your own, with its corners and border as you like.
+LE-C UI's writing can be in **a font of your choosing** (Look page, Writing): Dalamud's own, Clean, Light, Mono, or
+any font on your computer. Whichever it is, every letter of Polish, Czech, Turkish, Romanian, Vietnamese, Greek,
+Cyrillic and the rest shows: any the font hasn't got is filled in from Windows' own font. In the game's HUD layout
+editor, LE-C UI's look stays on the game's hotbars, minimap, gil and bag widget as you move them, so you can see
+where they'd overlap.
 
 | | |
 |---|---|
